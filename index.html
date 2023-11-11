@@ -29,7 +29,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-icon"><i class="fa-solid fa-bars"></i></span>
                 </button>
                 <div class="collapse navbar-collapse navmenu" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
@@ -315,29 +315,32 @@
                         </div>
                         <div class="review_carousel owl-carousel">
                             <div class="review_box">
-                                <div class="client_des">
-                                    <div class="client">
-                                        <p>Abdel</p>
-                                        <div class="star">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
+                                <div class="">
+                                    <div class="client_des">
+                                        <div class="client">
+                                            <p>Abdel</p>
+                                            <div class="star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
 
+                                            </div>
+                                        </div>
+                                        <div class="date">
+                                            <p>Aug 24, 2023</p>
                                         </div>
                                     </div>
-                                    <div class="date">
-                                        <p>Aug 24, 2023</p>
+                                    <hr>
+                                    <div class="review_des">
+                                        <h3>Best Choice</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque neque odit
+                                            veniam
+                                            eveniet nesciunt! Saepe error libero neque laudantium, ipsam ipsa dolore,
+                                            tenetur
+                                            facere est dolor possimus hic explicabo voluptatem?</p>
                                     </div>
-                                </div>
-                                <hr>
-                                <div class="review_des">
-                                    <h3>Best Choice</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque neque odit veniam
-                                        eveniet nesciunt! Saepe error libero neque laudantium, ipsam ipsa dolore,
-                                        tenetur
-                                        facere est dolor possimus hic explicabo voluptatem?</p>
                                 </div>
                             </div>
 
@@ -459,7 +462,7 @@
     <!-- cta -->
     <div class="cta cp-60">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-12">
                     <div class="cta_box text-center">
                         <h2>Get started today, <br>no credit card required.</h2>
@@ -518,8 +521,10 @@
                     autoplayTimeout: 5000,
                     smartSpeed: 500,
                     nav: false,
+                    dots:false,
                     touchDrag: true,
                     mouseDrag: true,
+                    autoplayHoverPause: true,
                     responsive: {
                         0: {
                             items: 1,
@@ -528,7 +533,7 @@
                             items: 1,
                         },
                         767: {
-                            items: 1,
+                            items: 2,
                         },
                         768: {
                             items: 2,
