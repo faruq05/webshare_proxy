@@ -181,9 +181,7 @@ p {
     padding: 20px 0px;
 }
 
-.hero_title p {
-
-}
+.hero_title p {}
 
 .btn_hero {
     width: 250px;
@@ -254,4 +252,42 @@ p {
 .prod_feature li i {
     color: var(--cs-primary);
     margin-right: 10px;
+}
+
+/* products end  */
+
+/* features starts */
+.feature {
+    background-color: var(--cs-bg);
+}
+
+.feature_content{
+    margin-bottom: 20px;
+}
+
+.feature_card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #242f631c;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 12px 0px #0000000a;
+}
+
+.feature_card img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.feature_card h3 {}
+
+.feature_card p {}
+
+.feature_card a {
+    color: var(--cs-box);
+    font-weight: 500;
+}
+
+.feature_card a:hover{
+    color: var(--cs-subtxt);
 }
