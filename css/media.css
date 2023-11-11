@@ -127,6 +127,10 @@
         text-align: center;
     }
 
+    .hero_title {
+        margin-top: 63px;
+    }
+
     .hero .row {
         min-height: 768px;
     }
