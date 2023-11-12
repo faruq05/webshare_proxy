@@ -22,12 +22,12 @@ p {
 
 /* global */
 :root {
-    --cs-primary: #3263f7;
+    --cs-primary: #00aedd;
     --cs-text: #11172d;
     --cs-para: #272a36;
     --cs-subtxt: #ffac59;
     --cs-bg: #f0f2f8;
-    --cs-box: #242f63;
+    --cs-box: #00519a;
     --cs-white: #fff;
 }
 
@@ -89,7 +89,7 @@ p {
 
 /* header */
 .header {
-    padding: 10px 0px;
+    padding: 0;
     backdrop-filter: blur(5px);
     position: fixed;
     width: 100%;
@@ -118,6 +118,11 @@ padding: 8px 15px;
 
 .navbar-brand {
     width: 35%;
+}
+
+.navbar-brand img{
+    
+width: 80px;
 }
 
 .navmenu {
@@ -190,14 +195,16 @@ padding: 8px 15px;
 
 .rating i {} */
 
-.trustpilot {}
-
-.trustpilot p {
+.trustpilot {
     display: flex;
     align-items: center;
 }
 
-.trustpilot p img {
+.trustpilot p {
+    
+}
+
+.trustpilot img {
     width: 140px;
     padding: 0px 15px;
 }
@@ -477,12 +484,13 @@ padding: 8px 15px;
 .footer {
     background-color: var(--cs-bg);
     text-align: center;
+    padding: 30px 15px;
 }
 
 .footer_box {}
 
 .footer_box img {
-    width: 200px;
+    width: 95px;
 }
 
 .footer_box p {

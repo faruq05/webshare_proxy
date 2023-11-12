@@ -108,6 +108,7 @@
     }
 }
 
+
 @media(max-width:767px) {
     h1 {
         font-size: 32px;
@@ -147,16 +148,20 @@
         width: 100%;
     }
 
-    .trustpilot p img {
+    .trustpilot img {
         padding: 5px 0px;
+        width: 80px;
     }
 
     .excel {
         flex-direction: column;
     }
 
-    .trustpilot p {
-        flex-direction: column;
+    .trustpilot {
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
     }
 
     .btn_exp {
@@ -212,5 +217,11 @@
 
     .social {
         width: 140px;
+    }
+}
+
+@media(max-width:500px){
+    .trustpilot{
+        width: 80%;
     }
 }
